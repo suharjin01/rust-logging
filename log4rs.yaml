@@ -2,7 +2,14 @@ appenders:
   stdout:
     kind: console
 
+  app_file: 
+    kind: file
+    path: application.log
+    append: true
+
+
 root:
   level: info
   appenders:
     - stdout
+    - app_file

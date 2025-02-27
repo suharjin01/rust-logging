@@ -1,0 +1,11 @@
+2025-02-27T20:58:22.079708743+08:00 ERROR rust_logging::tests - This is an error
+2025-02-27T20:58:22.079836073+08:00 WARN rust_logging::tests - This is a warning
+2025-02-27T20:58:22.079893537+08:00 INFO rust_logging::tests - This is an info
+2025-02-27T21:00:06.820890119+08:00 ERROR rust_logging::tests - This is an error
+2025-02-27T21:00:06.821012295+08:00 WARN rust_logging::tests - This is a warning
+2025-02-27T21:00:06.821073966+08:00 INFO rust_logging::tests - This is an info
+2025-02-27T21:00:06.821132174+08:00 DEBUG rust_logging::tests - This is a debaug
+2025-02-27T21:00:06.821213915+08:00 TRACE rust_logging::tests - This is a trace
+2025-02-27T21:00:26.687543418+08:00 ERROR rust_logging::tests - This is an error
+2025-02-27T21:00:26.687650135+08:00 WARN rust_logging::tests - This is a warning
+2025-02-27T21:00:26.687711586+08:00 INFO rust_logging::tests - This is an info
