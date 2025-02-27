@@ -1,0 +1,5 @@
+
+2025-02-27T21:46:19.243582872+08:00 ERROR rust_logging::tests2 - This is an error
+2025-02-27T21:46:19.243843369+08:00 WARN rust_logging::tests2 - This is a warning
+2025-02-27T21:46:43.463322320+08:00 ERROR rust_logging::tests2 - This is an error
+2025-02-27T21:46:43.464918407+08:00 WARN rust_logging::tests2 - This is a warning

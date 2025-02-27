@@ -6,10 +6,25 @@ appenders:
     kind: file
     path: application.log
     append: true
+  tests_file:
+    kind: file
+    path: tests.log
+    append: true
 
 
 root:
-  level: info
+  level: trace
   appenders:
     - stdout
     - app_file
+
+
+loggers:
+  rust_logging::tests:
+    level: info
+    appenders:
+      - tests_file
+  rust_logging::tests2:
+    level: warn
+    appenders:
+      - tests_file
