@@ -14,7 +14,10 @@ mod tests {
     fn test_log() {
         // Simple Logger
         // Kode: Env Logger
-        env_logger::init();
+        //env_logger::init();
+
+        // Complex Logger -> menggunakan complex logger
+        log4rs::init_file("log4rs.yaml", Default::default()).unwrap();
 
         error!("This is an error");
         warn!("This is a warning");
